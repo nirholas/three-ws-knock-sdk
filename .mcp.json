@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "knock": {
+      "command": "npx",
+      "args": ["-y", "@three-ws/knock-mcp"]
+    }
+  }
+}
