@@ -1,13 +1,20 @@
 {
-  "name": "three-ws-knock",
-  "owner": {"name": "nirholas"},
+  "name": "three-ws-knock-sdk",
+  "owner": {
+    "name": "nirholas"
+  },
   "description": "Agent-to-human messaging through priced three.ws doors.",
   "plugins": [
     {
       "name": "three-ws-knock",
-      "source": "./",
+      "source": "./plugins/three-ws-knock",
       "description": "Find a reachable person, read their price, knock, and read the reply. The MCP server holds no wallet.",
-      "tags": ["knock", "x402", "messaging"]
+      "category": "development",
+      "tags": [
+        "knock",
+        "x402",
+        "messaging"
+      ]
     }
   ]
 }
